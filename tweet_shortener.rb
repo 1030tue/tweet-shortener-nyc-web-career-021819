@@ -6,7 +6,7 @@ dictionary = {"hello" => "hi","to" => "2", "two" => "2", "too" => "2", "for" => 
  arr = tweet.split(" ")
  arr.map! {|w| w.downcase }
  arr = arr.map do |w|
- 	dictionary.fetch(w, w)
+ dictionary.fetch(w, w)
  end
  arr.join(" ")
 end

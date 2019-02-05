@@ -10,7 +10,8 @@ end
 if dictionary.keys.include?(w.downcase)
   w = dictionary[w.downcase]
 else
-  
+  w
+end
  arr.join(" ")
  end
 end

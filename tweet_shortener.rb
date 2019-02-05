@@ -7,8 +7,8 @@ end
  def word_substituter(tweet)
  arr = tweet.split(" ")
  arr = arr.map do |w|
-if dictionary.keys.include?(x.downcase)
-  x =
+if dictionary.keys.include?(w.downcase)
+  x = dictionary[w.downcase]
  arr.join(" ")
  end
 end

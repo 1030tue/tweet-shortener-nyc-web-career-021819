@@ -12,8 +12,8 @@ if dictionary.keys.include?(w.downcase)
 else
   w
 end
+end
  arr.join(" ")
- end
 end
 
 

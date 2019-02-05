@@ -26,7 +26,8 @@ def selective_tweet_shortener(tweets)
   if tweets.length <= 140
     return tweets
   else
-		puts word_substituter(tweets)
+    tweets.each do |t|
+		puts word_substituter(t)
 	end
 end
 

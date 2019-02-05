@@ -9,6 +9,8 @@ end
  arr = arr.map do |w|
 if dictionary.keys.include?(w.downcase)
   x = dictionary[w.downcase]
+else
+  
  arr.join(" ")
  end
 end

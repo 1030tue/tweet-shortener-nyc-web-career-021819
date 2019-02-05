@@ -7,11 +7,10 @@ end
  def word_substituter(tweet)
  arr = tweet.split(" ")
  arr.map {|w| w.downcase }
- arr = arr.map do |w|
  dictionary.fetch(w, w)
  end
  arr.join(" ")
- end
+end
 
 
 

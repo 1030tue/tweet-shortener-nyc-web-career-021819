@@ -13,4 +13,10 @@ end
  arr.join(" ")
 end
 
+def bulk_tweet_shortener(tweet)
+	tweet.each do |t1|
+		t2 = word_substituter(t1)
+		puts t2
+	end
+end
 

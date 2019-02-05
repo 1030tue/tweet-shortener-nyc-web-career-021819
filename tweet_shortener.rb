@@ -6,7 +6,8 @@ end
 
  def word_substituter(tweet)
  arr = tweet.split(" ")
- arr.map {|w| w.downcase }
+  arr = arr.map do |w|
+    w. downcase
  dictionary.fetch(w, w)
  arr.join(" ")
 end

@@ -8,7 +8,6 @@ end
  arr = tweet.split(" ")
  arr.map {|w| w.downcase }
  dictionary.fetch(w, w)
- end
  arr.join(" ")
 end
 

@@ -28,6 +28,7 @@ def selective_tweet_shortener(tweets)
   else
     tweets.each do |t|
 		puts word_substituter(t)
+		end
 	end
 end
 

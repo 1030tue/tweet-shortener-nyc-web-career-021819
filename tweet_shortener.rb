@@ -8,6 +8,7 @@ end
  arr = tweet.split(" ")
  arr = arr.map do |w|
 if dictionary.keys.include?(x.downcase)
+  x =
  arr.join(" ")
  end
 end

@@ -10,6 +10,7 @@ end
     w. downcase
  dictionary.fetch(w, w)
  arr.join(" ")
+ end
 end
 
 
